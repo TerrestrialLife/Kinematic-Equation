@@ -1,0 +1,123 @@
+body {
+  background-color: gray;
+  font-size: 15pt;
+  font-family: 'inter', sans-serif;
+}
+
+.option {
+  background-color: rgb(60, 60, 60);
+  width: 240px;
+  height: 27px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+  background-color: black;
+  width: 60px;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0px;
+  font-size: 12px;
+  text-align: left;
+  color: white;
+}
+
+#container1 {
+  background-color: black;
+  width: 340px;
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#box1 {
+  background-color: black;
+  width: 335px;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+}
+
+#box2 {
+  background-color: black;
+  width: 325px;
+  height: 220px;
+  margin: 6px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#box3 {
+  background-color: black;
+  width: 335px;
+  height: 70px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  background-color: white;
+  border: none;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s, font-size 0.3s;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+#A1, #A2, #A3 {
+  background-color: white;
+  width: 330px;
+  height: 50px;
+  margin-top: 3px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+  outline-color: black;
+}
+
+#container2 {
+  background-color: black;
+  width: 330px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: grid;
+grid-template-columns: repeat(1, 1fr);
+}
+.box4, .box5, .box6 {
+  background-color: rgb(60, 60, 60);
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+h7 {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+}
+
+#problem, #given1, #given2, #given3, #sol1, #sol2, #sol3 {
+  color: white;
+  font-size: 10px;
+  margin: 10px;
+}
+#answer {
+  outline: none;
+  font-size: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="option">
+    <button id="btn1" onclick="setOption(1)">Tab1</button>
+    <button id="btn2" onclick="setOption(2)">Tab2</button>
+    <button id="btn3" onclick="setOption(3)">Tab3</button>
+    <button id="btn4" onclick="setOption(4)">Tab4</button>
+  </div>
+  
+  <div id="container1">
+    <div id="box1">
+      <h9 id="formula">Select a furmula</h9>
+      <input id="A1" class="numIn" placeholder="⬆️ Tap the tab above to select your equation" readonly>
+      <input id="A2" class="numIn"  placeholder="---Kinematic Equation---" readonly>
+      <input id="A3" class="numIn" placeholder=" Created By Xander Rendon" readonly>
+    </div>
+    <div id="box2">
+      <button onclick="num('9')">9</button>
+      <button onclick="num('8')">8</button>
+      <button onclick="num('7')">7</button>
+      <button onclick="num('4')">4</button>
+      <button onclick="num('5')">5</button>
+      <button onclick="num('6')">6</button>
+      <button onclick="num('1')">1</button>
+      <button onclick="num('2')">2</button>
+      <button onclick="num('3')">3</button>
+      <button onclick="num('0')">0</button>
+      <button onclick="num('.')">•</button>
+      <button onclick="num('-')">-</button>
+
+    </div>
+    <div id="box3">
+      <button onclick="calculate()">Calculate</button>
+      <button onclick="clearK()">clear</button>
+    </div>
+  </div>
+  <div id="container2">
+    <div class="box4">
+      <h7>Problem:</h7>
+      <p id="problem"></p>
+    </div>
+    
+    <div class="box5">
+      <h7>Given:</h7>
+      <p id="given1"></p>
+      <p id="given2"></p>
+      <p id="given3"></p>
+    </div>
+    
+    <div class="box6">
+      <h7>Solution:</h7>
+      <p id="sol1"></p>
+      <p id="sol2"></p>
+      <p id="sol3"></p>
+    </div>
+    <input id="answer" readonly>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

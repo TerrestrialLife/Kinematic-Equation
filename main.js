@@ -26,16 +26,31 @@ function setOption(optionNumber) {
     document.getElementById("btn2").style.backgroundColor = "";
     document.getElementById("btn3").style.backgroundColor = "";
     document.getElementById("btn4").style.backgroundColor = "";
-    // container1 color
+    // container1
     document.getElementById("box1").style.backgroundColor = "#0000";
     document.getElementById("box2").style.backgroundColor = "#8B0000";
     document.getElementById("box3").style.backgroundColor = "#8B0000";
     document.getElementById("container1").style.backgroundColor = "#8B0000";
     document.getElementById("formula").innerText = "Displacement with velocity";
+    document.getElementById("container1").style.transform = "perspective(500px) rotateX(0deg) rotateY(2deg)";
     // placeholder
     document.getElementById('A1').placeholder = "Enter Initial Velocity";
     document.getElementById('A2').placeholder = "Enter Acceleration";
     document.getElementById('A3'). placeholder = "Enter Time";
+    // input, problem, given, & answer
+    document.getElementById('A1').value = null;
+    document.getElementById('A2').value = null;
+    document.getElementById('A3').value = null;
+    document.getElementById('answer').value = null;
+    document.getElementById('problem').innerText = null;
+    document.getElementById('given1').innerText = null;
+    document.getElementById('given2').innerText = null;
+    document.getElementById('given3').innerText = null;
+    document.getElementById('sol1').innerText = null;
+    document.getElementById('sol2').innerText = null;
+    document.getElementById('sol3').innerText = null;
+    // images
+    document.getElementById("image").src = "Images/images4.jpeg";
   }
   else if (selectedOption == 2) {
     //tab colors
@@ -43,16 +58,31 @@ function setOption(optionNumber) {
     document.getElementById("btn2").style.backgroundColor = "#00008B";
     document.getElementById("btn3").style.backgroundColor = "";
     document.getElementById("btn4").style.backgroundColor = "";
-    // container 1 color
+    // container 1
     document.getElementById("box1").style.backgroundColor = "#00008B";
     document.getElementById("box2").style.backgroundColor = "#00008B";
     document.getElementById("box3").style.backgroundColor = "#00008B";
     document.getElementById("container1").style.backgroundColor = "#00008B";
     document.getElementById("formula").innerText = "Velocity-displacement relation";
+    document.getElementById("container1").style.transform = "perspective(500px) rotateX(0deg) rotateY(-2deg)";
     // placeholder
     document.getElementById('A1').placeholder = "Enter Initial Velocity";
     document.getElementById('A2').placeholder = "Enter Acceleration";
     document.getElementById('A3'). placeholder = "Enter Distance";
+    // input, problem, given, & answer
+    document.getElementById('A1').value = null;
+    document.getElementById('A2').value = null;
+    document.getElementById('A3').value = null;
+    document.getElementById('answer').value = null;
+    document.getElementById('problem').innerText = null;
+    document.getElementById('given1').innerText = null;
+    document.getElementById('given2').innerText = null;
+    document.getElementById('given3').innerText = null;
+    document.getElementById('sol1').innerText = null;
+    document.getElementById('sol2').innerText = null;
+    document.getElementById('sol3').innerText = null;
+    // images
+    document.getElementById("image").src = "Images/images3.jpeg";
   }
   else if (selectedOption == 3) {
     // tab colors
@@ -60,16 +90,31 @@ function setOption(optionNumber) {
     document.getElementById("btn2").style.backgroundColor = "";
     document.getElementById("btn3").style.backgroundColor = "#006400";
     document.getElementById("btn4").style.backgroundColor = "";
-    // container1 color
+    // container1
     document.getElementById("box1").style.backgroundColor = "#006400";
     document.getElementById("box2").style.backgroundColor = "#006400";
     document.getElementById("box3").style.backgroundColor = "#006400";
     document.getElementById("container1").style.backgroundColor = "#006400";
     document.getElementById("formula").innerText = "Final velocity with time";
+    document.getElementById("container1").style.transform = "perspective(500px) rotateX(0deg) rotateY(2deg)";
     // placeholder
     document.getElementById('A1').placeholder = "Enter Initial Velocity";
     document.getElementById('A2').placeholder = "Enter Acceleration";
     document.getElementById('A3'). placeholder = "Enter Time";
+    //input, problem, given, & answer
+    document.getElementById('A1').value = null;
+    document.getElementById('A2').value = null;
+    document.getElementById('A3').value = null;
+    document.getElementById('answer').value = null;
+    document.getElementById('problem').innerText = null;
+    document.getElementById('given1').innerText = null;
+    document.getElementById('given2').innerText = null;
+    document.getElementById('given3').innerText = null;
+    document.getElementById('sol1').innerText = null;
+    document.getElementById('sol2').innerText = null;
+    document.getElementById('sol3').innerText = null;
+    // images
+    document.getElementById("image").src = "Images/images1.jpeg";
   }
   else if (selectedOption == 4) {
     // tab colors
@@ -77,16 +122,31 @@ function setOption(optionNumber) {
     document.getElementById("btn2").style.backgroundColor = "";
     document.getElementById("btn3").style.backgroundColor = "";
     document.getElementById("btn4").style.backgroundColor = "#4B0082";
-    // container1 color
+    // container1
     document.getElementById("box1").style.backgroundColor = "#4B0082";
     document.getElementById("box2").style.backgroundColor = "#4B0082";
     document.getElementById("box3").style.backgroundColor = "#4B0082";
     document.getElementById("container1").style.backgroundColor = "#4B0082";
     document.getElementById("formula").innerText = "Displacement using average time";
+    document.getElementById("container1").style.transform = "perspective(500px) rotateX(0deg) rotateY(-2deg)";
     // placeholder
     document.getElementById('A1').placeholder = "Enter Initial Velocity";
     document.getElementById('A2').placeholder = "Enter Final Velocity";
     document.getElementById('A3'). placeholder = "Enter Time";
+    // input, problem, given, & answer
+    document.getElementById('A1').value = null;
+    document.getElementById('A2').value = null;
+    document.getElementById('A3').value = null;
+    document.getElementById('answer').value = null;
+    document.getElementById('problem').innerText = null;
+    document.getElementById('given1').innerText = null;
+    document.getElementById('given2').innerText = null;
+    document.getElementById('given3').innerText = null;
+    document.getElementById('sol1').innerText = null;
+    document.getElementById('sol2').innerText = null;
+    document.getElementById('sol3').innerText = null;
+    // images
+    document.getElementById("image").src = "Images/images2.jpeg";
   }
   
   

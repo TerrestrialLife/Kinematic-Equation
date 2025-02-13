@@ -10,14 +10,15 @@
 </head>
 
 <body>
-  <div class="option">
-    <button id="btn1" onclick="setOption(1)">Tab1</button>
-    <button id="btn2" onclick="setOption(2)">Tab2</button>
-    <button id="btn3" onclick="setOption(3)">Tab3</button>
-    <button id="btn4" onclick="setOption(4)">Tab4</button>
-  </div>
+  
   
   <div id="container1">
+    <div id="option">
+    <button id="btn1" onclick="setOption(1)">Tab 1</button>
+    <button id="btn2" onclick="setOption(2)">Tab 2</button>
+    <button id="btn3" onclick="setOption(3)">Tab 3</button>
+    <button id="btn4" onclick="setOption(4)">Tab 4</button>
+  </div>
     <div id="box1">
       <h9 id="formula">Select a furmula</h9>
       <input id="A1" class="numIn" placeholder="⬆️ Tap the tab above to select your equation" readonly>
@@ -43,6 +44,9 @@
       <button onclick="calculate()">Calculate</button>
       <button onclick="clearK()">clear</button>
     </div>
+  </div>
+  <div id="container3">
+    <img id="image">
   </div>
   <div id="container2">
     <div class="box4">
